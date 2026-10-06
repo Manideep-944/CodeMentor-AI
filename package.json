@@ -1,0 +1,21 @@
+{
+  "name": "codementor-ai",
+  "version": "1.0.0",
+  "description": "CodeMentor AI — Intelligent Coding Mentor (Phase 1)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client"
+  },
+  "keywords": [
+    "ai-coding-mentor",
+    "education",
+    "monaco-editor",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "CodeMentor AI Team",
+  "license": "MIT"
+}
